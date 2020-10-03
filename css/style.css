@@ -18,7 +18,7 @@ body {
 
 /* HEADER */
 /* nav superiore */
-.small {
+.upper {
   min-height: 58px;
   background-color: lightgreen;
   border: solid 1px black;
@@ -67,8 +67,8 @@ img {
 #jumbo {
   height: 600px;
   width: 100%;
-  padding-top: 240px;
-  padding-bottom: 260px;
+  padding-top: 230px;
+  padding-bottom: 270px;
   background-size: cover;
   background-image: url("../img/background1.jpg");
   position: relative;
@@ -77,10 +77,12 @@ img {
 
 #shared {
   font-size: 45px;
+  color: white;
 }
 
 #bring {
   font-size: 17px;
+  color: white;
 }
 
 #apple {
@@ -102,3 +104,36 @@ p {
 }
 
 /* MAIN */
+/* sezione monopattini */
+
+#monopattini {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.monos {
+  min-height: 450px;
+  background-color: lightgreen;
+  border: solid 1px black;
+  margin-top: 2%;
+}
+
+.boxleft {
+  min-height: 450px;
+  min-width: auto;
+  background-color: rgb(220,220,220);
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.boxright {
+  min-height: 450px;
+  min-width: auto;
+  background-color: blue;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
