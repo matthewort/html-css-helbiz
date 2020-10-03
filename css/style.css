@@ -11,6 +11,10 @@
   padding: 2px;
 }
 
+body {
+  font-family: tahoma;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -28,10 +32,22 @@ img {
 #jumbo {
   height: 600px;
   width: 100%;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 240px;
+  padding-bottom: 260px;
   background-size: cover;
   background-image: url("../img/background1.jpg");
   position: relative;
+  text-align: center;
+}
 
+#shared {
+  font-size: 40px;
+}
+
+#bring {
+  font-size: 18px;
+}
+
+p {
+  font-size: 20px;
 }
