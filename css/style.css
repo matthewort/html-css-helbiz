@@ -16,7 +16,22 @@ img {
   height: auto;
 }
 
+#nav-large {
+  width: 80%;
+  margin: 0 auto;
+}
 
-/* .row {
-  margin-left: 2%;
-} */
+#nav-mobile {
+  display: none;
+}
+
+#jumbo {
+  height: 600px;
+  width: 100%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-size: cover;
+  background-image: url("../img/background1.jpg");
+  position: relative;
+
+}
