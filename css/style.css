@@ -12,6 +12,12 @@
   padding: 2px;
 }
 
+body {
+  font-family: tahoma;
+}
+
+/* HEADER */
+/* nav superiore */
 .small {
   min-height: 58px;
   background-color: lightgreen;
@@ -47,10 +53,6 @@ a:hover {
   color: lightgrey;
 }
 
-body {
-  font-family: tahoma;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -61,6 +63,7 @@ img {
   margin: 0 auto;
 }
 
+/* jumbotron */
 #jumbo {
   height: 600px;
   width: 100%;
@@ -73,13 +76,29 @@ img {
 }
 
 #shared {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 #bring {
-  font-size: 18px;
+  font-size: 17px;
+}
+
+#apple {
+  height: 50px;
+  width: auto;
+
+  display: inline;
+}
+
+#google {
+  height: 50px;
+  width: auto;
+
+  display: inline;
 }
 
 p {
   font-size: 20px;
 }
+
+/* MAIN */
