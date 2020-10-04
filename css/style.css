@@ -163,19 +163,20 @@ p {
 }
 
 .olph {
-    min-height: 550px;
+    min-height: 50px;
     min-width: auto;
     background-color: lightgreen;
     border: solid 1px black;
-    margin-top: 10%;
   }
 
 #iphone {
   max-height: 680px;
   max-width: auto;
+  margin-top: 10%;
 }
 
-.olphright {
+
+/* .olphright {
   min-height: 250px;
   min-width: 400px;
   background-color: lightgreen;
@@ -188,6 +189,27 @@ p {
   min-width: 400px;
   background-color: lightgreen;
   border: solid 1px black;
-  margin-top: 30%;
+  margin-top: 1%;
 
+} */
+
+/* sezione smart mobility */
+#riquadri {
+  height: 550px;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url("../img/scooterbck.jpg");
+  background-size: cover;
+}
+
+.scoots {
+  min-height: 350px;
+  background-color: lightgreen;
+  border: solid 1px black;
+  float: right;
+  margin-top: 10%;
+}
+
+#smh1 {
+  text-align: center;
 }
