@@ -211,7 +211,7 @@ p {
   padding-top: 15px;
 }
 
-#txt1 {
+.txt1 {
   text-align: center;
 }
 
@@ -223,35 +223,25 @@ p {
   background-size: cover;
 }
 
-.socleft {
-  min-height: 450px;
-  background-color: #1d1d7c;
-  border: solid 1px black;
-  float: right;
-  margin-top: 40px;
-}
-
 .socright {
   min-height: 450px;
-  background-color: lightgreen;
+  background-image: url("../img/capital.jpg");
+  background-size: cover;;
   border: solid 1px black;
   float: right;
   margin-top: 40px;
 }
 
+.socleft {
+  min-height: 450px;
+  border: solid 1px black;
+  float: left;
+  margin-top: 40px;
+}
 
 
-#txt2 {
+
+.txt2 {
   text-align: center;
   margin-top: 2%;
-}
-
-.city {
-  background-image: url("../img/capital.jpg");
-  background-size: cover;
-}
-
-#iphone1 {
-  bottom: -30%;
-  left: 50%;
 }
