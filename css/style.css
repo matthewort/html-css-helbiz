@@ -208,8 +208,9 @@ p {
   border: solid 1px black;
   float: right;
   margin-top: 10%;
+  padding-top: 7%;
 }
 
-#smh1 {
+#txt1 {
   text-align: center;
 }
