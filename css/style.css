@@ -147,13 +147,13 @@ p {
 
 .bikescoot {
   max-height: 450px;
-  min-width: auto;
+  max-width: auto;
 }
 
 /* sezione anziano telefono */
 #oldphone {
   height: 850px;
-  width: 100%;
+  width: auto;
   margin-top: 40px;
   padding-bottom: 270px;
   background-size: cover;
@@ -162,4 +162,32 @@ p {
   text-align: center;
 }
 
-.olph
+.olph {
+    min-height: 550px;
+    min-width: auto;
+    background-color: lightgreen;
+    border: solid 1px black;
+    margin-top: 10%;
+  }
+
+#iphone {
+  max-height: 680px;
+  max-width: auto;
+}
+
+.olphright {
+  min-height: 250px;
+  min-width: 400px;
+  background-color: lightgreen;
+  border: solid 1px black;
+  margin-top: 30%;
+}
+
+.olphleft {
+  min-height: 250px;
+  min-width: 400px;
+  background-color: lightgreen;
+  border: solid 1px black;
+  margin-top: 30%;
+
+}
