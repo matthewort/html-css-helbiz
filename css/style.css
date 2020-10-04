@@ -67,12 +67,12 @@ img {
 
 /* jumbotron */
 #jumbo {
-  height: 600px;
+  height: 650px;
   width: 100%;
   padding-top: 230px;
   padding-bottom: 270px;
   background-size: cover;
-  background-image: url("../img/background1.jpg");
+  background-image: url("../img/background2.jpg");
   position: relative;
   text-align: center;
 }
@@ -125,8 +125,8 @@ p {
   min-width: auto;
   background-color: #fafafa;
   margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
   margin-bottom: 20px;
 }
 
@@ -135,11 +135,10 @@ p {
   min-width: auto;
   background-color: #fafafa;
   margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
   margin-bottom: 20px;
 }
-
 
 .center {
   text-align: center;
@@ -148,4 +147,16 @@ p {
 .bikescoot {
   max-height: 450px;
   max-width: auto;
+}
+
+/* sezione anziano telefono */
+#oldphone {
+  height: 600px;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 270px;
+  background-size: cover;
+  background-image: url("../img/oldman.jpg");
+  position: relative;
+  text-align: center;
 }
