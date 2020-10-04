@@ -114,7 +114,8 @@ p {
 }
 
 .monos {
-  min-height: 450px;
+  min-height: 550px;
+  min-width: auto;
   background-color: lightgreen;
   border: solid 1px black;
   margin-top: 2%;
@@ -146,17 +147,19 @@ p {
 
 .bikescoot {
   max-height: 450px;
-  max-width: auto;
+  min-width: auto;
 }
 
 /* sezione anziano telefono */
 #oldphone {
-  height: 600px;
+  height: 850px;
   width: 100%;
   margin-top: 40px;
   padding-bottom: 270px;
   background-size: cover;
-  background-image: url("../img/oldman.jpg");
+  background-image: url("../img/oldman1.jpg");
   position: relative;
   text-align: center;
 }
+
+.olph
