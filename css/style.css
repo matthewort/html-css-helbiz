@@ -175,23 +175,16 @@ p {
   margin-top: 10%;
 }
 
+.par1 {
+  height: 300px;
+  margin-top: 500px;
 
-/* .olphright {
-  min-height: 250px;
-  min-width: 400px;
-  background-color: lightgreen;
-  border: solid 1px black;
-  margin-top: 30%;
 }
 
-.olphleft {
-  min-height: 250px;
-  min-width: 400px;
-  background-color: lightgreen;
-  border: solid 1px black;
-  margin-top: 1%;
-
-} */
+.par2 {
+  height: 300px;
+  margin-top: 500px;
+}
 
 /* sezione smart mobility */
 #riquadri {
@@ -221,16 +214,23 @@ p {
   width: 80%;
   margin: 0 auto;
   background-size: cover;
+  position: relative;
 }
 
 .socright {
   min-height: 450px;
   background-image: url("../img/capital.jpg");
-  background-size: cover;;
+  background-size: cover;
   border: solid 1px black;
   float: right;
   margin-top: 40px;
+
 }
+
+/* #capital {
+  height: 50%;
+  width: 600px;
+} */
 
 .socleft {
   min-height: 450px;
@@ -243,5 +243,7 @@ p {
 
 .txt2 {
   text-align: center;
-  margin-top: 2%;
+  /* margin-top: 2%;
+  position: absolute;
+  top: 8px; */
 }
