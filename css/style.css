@@ -203,14 +203,55 @@ p {
 }
 
 .scoots {
-  min-height: 350px;
+  min-height: 250px;
   background-color: lightgreen;
   border: solid 1px black;
   float: right;
-  margin-top: 10%;
-  padding-top: 7%;
+  margin-top: 200px;
+  padding-top: 15px;
 }
 
 #txt1 {
   text-align: center;
+}
+
+/* sezione social */
+#riquadri2 {
+  height: 550px;
+  width: 80%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.socleft {
+  min-height: 450px;
+  background-color: #1d1d7c;
+  border: solid 1px black;
+  float: right;
+  margin-top: 40px;
+}
+
+.socright {
+  min-height: 450px;
+  background-color: lightgreen;
+  border: solid 1px black;
+  float: right;
+  margin-top: 40px;
+}
+
+
+
+#txt2 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.city {
+  background-image: url("../img/capital.jpg");
+  background-size: cover;
+}
+
+#iphone1 {
+  bottom: -30%;
+  left: 50%;
 }
