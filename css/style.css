@@ -176,14 +176,17 @@ p {
 }
 
 .par1 {
-  height: 300px;
-  margin-top: 500px;
-
+  height: 800px;
+  text-align: left;
+  padding-top: 650px;
+  padding-left: 150px;
 }
 
 .par2 {
-  height: 300px;
-  margin-top: 500px;
+  height: 800px;
+  text-align: left;
+  padding-top: 650px;
+  padding-left: 150px;
 }
 
 /* sezione smart mobility */
@@ -239,11 +242,33 @@ p {
   margin-top: 40px;
 }
 
-
-
 .txt2 {
   text-align: center;
   /* margin-top: 2%;
   position: absolute;
   top: 8px; */
+}
+
+/* sezione family */
+
+#family {
+  height: 500px;
+  width: 100%;
+  padding-top: 240px;
+  padding-bottom: 480px;
+  /* padding-left: 560px;
+  padding-right: 560px; */
+  background-size: cover;
+  background-image: url("../img/patchwork.jpg");
+  position: relative;
+  text-align: center;
+}
+
+.fam {
+  height: 350px;
+}
+
+#helbizfamily {
+  font-size: 40px;
+  padding-top: 45px;
 }
