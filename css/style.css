@@ -192,10 +192,11 @@ p {
 /* sezione smart mobility */
 #riquadri {
   height: 550px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   background-image: url("../img/scooterbck.jpg");
   background-size: cover;
+  float: left;
 }
 
 .scoots {
@@ -225,7 +226,7 @@ p {
   background-image: url("../img/capital.jpg");
   background-size: cover;
   border: solid 1px black;
-  float: right;
+  float: left;
   margin-top: 40px;
 
 }
@@ -256,12 +257,14 @@ p {
   width: 100%;
   padding-top: 240px;
   padding-bottom: 480px;
+  margin-top: 50px;
   /* padding-left: 560px;
   padding-right: 560px; */
   background-size: cover;
   background-image: url("../img/patchwork.jpg");
-  position: relative;
   text-align: center;
+  display: block;
+  float: left;
 }
 
 .fam {
