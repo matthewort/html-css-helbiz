@@ -189,6 +189,44 @@ p {
   padding-left: 150px;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1150px) {
+  .par1 {
+    height: 800px;
+    text-align: left;
+    padding-top: 550px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+  .par2 {
+    height: 800px;
+    text-align: left;
+    padding-top: 550px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  .par1 {
+    height: 250px;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+  .par2 {
+    height: 300px;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+}
+
 /* sezione smart mobility */
 #riquadri {
   height: 550px;
