@@ -7,8 +7,8 @@
 [class*="col-"] {
   min-height: 100px;
   min-width: auto;
-  background-color: lightgreen;
-  border: solid 1px black;
+  /* background-color: lightgreen;
+  border: solid 1px black; */
   padding: 2px;
 }
 
@@ -20,8 +20,8 @@ body {
 /* nav superiore */
 .upper {
   min-height: 58px;
-  background-color: lightgreen;
-  border: solid 1px black;
+  /* background-color: lightgreen; */
+  /* border: solid 1px black; */
   /* padding-top: 10px; */
 }
 
@@ -116,8 +116,8 @@ p {
 .monos {
   min-height: 550px;
   min-width: auto;
-  background-color: lightgreen;
-  border: solid 1px black;
+  /* background-color: lightgreen;
+  border: solid 1px black; */
   margin-top: 2%;
 }
 
@@ -165,8 +165,8 @@ p {
 .olph {
     min-height: 50px;
     min-width: auto;
-    background-color: lightgreen;
-    border: solid 1px black;
+    /* background-color: lightgreen;
+    border: solid 1px black; */
   }
 
 #iphone {
@@ -239,11 +239,12 @@ p {
 
 .scoots {
   min-height: 250px;
-  background-color: lightgreen;
-  border: solid 1px black;
+  /* background-color: lightgreen;
+  border: solid 1px black; */
   float: right;
   margin-top: 200px;
   padding-top: 15px;
+  color: white;
 }
 
 .txt1 {
@@ -266,19 +267,25 @@ p {
   border: solid 1px black;
   float: left;
   margin-top: 40px;
+  padding: 5px;
+  border: 30px solid white;
 
 }
 
-/* #capital {
-  height: 50%;
-  width: 600px;
-} */
+#capital {
+  height: 5px;
+  width: 5px;
+}
 
 .socleft {
   min-height: 450px;
+  background-image: url("../img/app2.jpg");
+  background-size: cover;
   border: solid 1px black;
   float: left;
   margin-top: 40px;
+  padding: 5px;
+  border: 30px solid white;
 }
 
 .txt2 {
@@ -307,6 +314,8 @@ p {
 
 .fam {
   height: 350px;
+  background-color: white;
+  border: solid 1px black;
 }
 
 #helbizfamily {
