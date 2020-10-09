@@ -7,8 +7,8 @@
 [class*="col-"] {
   min-height: 100px;
   min-width: auto;
-  /* background-color: lightgreen;
-  border: solid 1px black; */
+  background-color: lightgreen;
+  border: solid 1px black;
   padding: 2px;
 }
 
@@ -33,13 +33,13 @@ body {
   margin-top: 12px;
 }
 
-ul {
+.upper ul {
   list-style-type: none;
   margin-top: 1.5%;
   padding-left: 20%;
 }
 
-li {
+.upper li {
   font-size: 14px;
   display: inline;
   margin-left: 1%;
@@ -298,10 +298,12 @@ p {
 /* sezione family */
 
 #family {
-  height: 500px;
+  height: 700px;
   width: 100%;
-  padding-top: 240px;
+  padding-top: 150px;
   padding-bottom: 480px;
+  padding-left: 250px;
+  padding-right: 250px;
   margin-top: 50px;
   /* padding-left: 560px;
   padding-right: 560px; */
@@ -321,4 +323,29 @@ p {
 #helbizfamily {
   font-size: 40px;
   padding-top: 45px;
+}
+
+/* FOOTER */
+.ms_footercontainer {
+  min-height: 100px;
+  padding-right: 240px;
+  padding-left: 240px;
+  padding-top: 120px;
+}
+
+#helbiztext {
+  font-size: 60px;
+}
+
+.ms_list p, li {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+.ms_list ul {
+  list-style: none;
+}
+
+.bottompart1 {
+  height: 180px;
 }
