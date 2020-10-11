@@ -300,10 +300,10 @@ p {
 #family {
   height: 700px;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 480px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-top: 250px;
+  padding-bottom: 580px;
+  padding-left: 550px;
+  padding-right: 550px;
   margin-top: 50px;
   /* padding-left: 560px;
   padding-right: 560px; */
@@ -322,7 +322,7 @@ p {
 
 #helbizfamily {
   font-size: 40px;
-  padding-top: 45px;
+  padding-top: 85px;
 }
 
 /* FOOTER */
@@ -337,9 +337,11 @@ p {
   font-size: 60px;
 }
 
+
 .ms_list p, li {
   font-size: 20px;
   padding-top: 25px;
+  color: white;
 }
 
 .ms_list ul {
@@ -348,4 +350,129 @@ p {
 
 .bottompart1 {
   height: 180px;
+  text-align: center;
+}
+
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  /* sezione family */
+
+  #family {
+    height: 700px;
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 580px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    /* padding-left: 560px;
+    padding-right: 560px; */
+    background-size: cover;
+    background-image: url("../img/patchwork.jpg");
+    text-align: center;
+    display: block;
+    float: left;
+  }
+
+  .fam {
+    height: 350px;
+    background-color: white;
+    border: solid 1px black;
+  }
+
+  #helbizfamily {
+    font-size: 40px;
+    padding-top: 85px;
+  }
+
+  /* FOOTER */
+  .ms_footercontainer {
+    min-height: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  #helbiztext {
+    font-size: 60px;
+  }
+
+
+  .ms_list p, li {
+    font-size: 20px;
+    padding-top: 25px;
+    color: white;
+  }
+
+  .ms_list ul {
+    list-style: none;
+  }
+
+  .bottompart1 {
+    height: 180px;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (min-width: 769px) {
+  /* sezione family */
+
+  #family {
+    height: 700px;
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 580px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    /* padding-left: 560px;
+    padding-right: 560px; */
+    background-size: cover;
+    background-image: url("../img/patchwork.jpg");
+    text-align: center;
+    display: block;
+    float: left;
+  }
+
+  .fam {
+    height: 350px;
+    background-color: white;
+    border: solid 1px black;
+  }
+
+  #helbizfamily {
+    font-size: 40px;
+    padding-top: 85px;
+  }
+
+  /* FOOTER */
+  .ms_footercontainer {
+    min-height: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 120px;
+  }
+
+  #helbiztext {
+    font-size: 60px;
+  }
+
+
+  .ms_list p, li {
+    font-size: 20px;
+    padding-top: 25px;
+    color: white;
+  }
+
+  .ms_list ul {
+    list-style: none;
+  }
+
+  .bottompart1 {
+    height: 180px;
+    text-align: center;
+  }
+
+
 }
