@@ -7,8 +7,8 @@
 [class*="col-"] {
   min-height: 100px;
   min-width: auto;
-  background-color: lightgreen;
-  border: solid 1px black;
+  /* background-color: lightgreen;
+  border: solid 1px black; */
   padding: 2px;
 }
 
@@ -326,6 +326,13 @@ p {
 }
 
 /* FOOTER */
+
+#bottompart {
+  background-color: black;
+  height: 1100px;
+  margin-top: 1000px;
+}
+
 .ms_footercontainer {
   min-height: 100px;
   padding-right: 240px;
@@ -411,6 +418,13 @@ p {
     height: 180px;
     text-align: center;
   }
+
+  #bottompart {
+    background-color: black;
+    height: 1400px;
+    margin-top: 1500px;
+  }
+
 
 
 }
